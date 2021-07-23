@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background:#2980b9;
+	margin:0;
+	padding:0;
+	font-family:'poppins',sans-serif;
+	height:40px;
+    overflow:hidden;
+}
+.center{
+	postion:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(50%,50%);
+	width:400px;
+	background:white;
+	
+}
+.center h1{
+	text-align:center;
+	padding:0 0 30px 0 ;
+	border-bottom:1px solid silver;
+}
+
+.remember{
+	margin:20px;
+}
+
+.user label{
+	postion:absolute;
+	top:50%;
+	left:5px;
+	transform:translateY(-50%);
+	color:#adadad;
+	pointer-events:none;
+	font-size:16px;
+	margin:20px;
+}
+.password{
+	margin:20px;
+}
